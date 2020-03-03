@@ -1,0 +1,14 @@
+
+\
+squid:S106˜"9Replace this use of System.out or System.err by a logger.(†’ŸÈşÿÿÿÿ8úŸ¾·ı-
+Fsquid:S1148k"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8úŸ¾·ı-
+usquid:S37762"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(³ËÑüÿÿÿÿ8úŸ¾·ı-
+Psquid:S1135¢"2Complete the task associated to this TODO comment.(¤Ü÷8úŸ¾·ı-
+Fsquid:S1148s"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8úŸ¾·ı-
+Psquid:S1135‰"2Complete the task associated to this TODO comment.(¤Ü÷8úŸ¾·ı-
+†squid:S4165Ÿ"hRemove this useless assignment; "userResult" already holds the assigned value along all execution paths.(¬¨ø8úŸ¾·ı-
+isquid:CommentedOutCodeLine<"<This block of commented-out lines of code should be removed.(Ê°â8úŸ¾·ı-
+Msquid:S2093D"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ8úŸ¾·ı-
+†squid:S4165…"hRemove this useless assignment; "userResult" already holds the assigned value along all execution paths.(¬¨ø8úŸ¾·ı-
+Vsquid:S1197K"8Move the array designator from the variable to the type.(şßèÓ8úŸ¾·ı-
+qsquid:S2095f"NUse try-with-resources or close this "FileOutputStream" in a "finally" clause.(±½øæÿÿÿÿÿ8úŸ¾·ı-

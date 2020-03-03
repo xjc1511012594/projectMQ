@@ -1,0 +1,12 @@
+
+osquid:CommentedOutCodeLineÑ"<This block of commented-out lines of code should be removed.(Ø‰Å»ÿÿÿÿÿ8ª¥ûþø-
+fsquid:S00112Þ"FDefine and throw a dedicated exception instead of using a generic one.(µÅì™8ª¥ûþø-
+\squid:S1197®"8Move the array designator from the variable to the type.(”Æ»¢ûÿÿÿÿ8ª¥ûþø-
+Vsquid:S1135Å"2Complete the task associated to this TODO comment.(±ü®±üÿÿÿÿ8ƒº÷ú-
+esquid:S11927"GDefine a constant instead of duplicating this literal "itemId" 4 times.(÷¨àº8²çÚþø-
+osquid:CommentedOutCodeLine×"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ8ª¥ûþø-
+ssquid:S3252—"OUse static access with "com.github.pagehelper.page.PageMethod" for "startPage".(¶—ìÖýÿÿÿÿ8øö®ÿø-
+fsquid:S2230`"CMake this method "public" or remove the "@Transactional" annotation(¼´š·úÿÿÿÿ8ª¥ûþø-
+osquid:CommentedOutCodeLineÔ"<This block of commented-out lines of code should be removed.(­áŸ¿ùÿÿÿÿ8ª¥ûþø-
+ssquid:S3252¤"OUse static access with "com.github.pagehelper.page.PageMethod" for "startPage".(¶—ìÖýÿÿÿÿ8øö®ÿø-
+rsquid:S3252z"OUse static access with "com.github.pagehelper.page.PageMethod" for "startPage".(¶—ìÖýÿÿÿÿ8øö®ÿø-

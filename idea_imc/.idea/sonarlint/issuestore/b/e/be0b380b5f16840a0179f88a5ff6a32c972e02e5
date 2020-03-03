@@ -1,0 +1,6 @@
+
+ƒsquid:S1488-"eImmediately return this expression instead of assigning it to the temporary variable "userAddresses".(Ò‰Š­8¡¤¯úù-
+{squid:S1488y"_Immediately return this expression instead of assigning it to the temporary variable "address".(ÜŒ¦¦øÿÿÿÿ
+hsquid:UselessImportCheck"=Remove this unused import 'tk.mybatis.mapper.entity.Example'.(ÛÔùÆ8Êµƒùù-
+ƒsquid:S1488%"eImmediately return this expression instead of assigning it to the temporary variable "userAddresses".(Ò‰Š­8æâõøù-
+Usquid:S11559">Use isEmpty() to check whether the collection is empty or not.(­ØôÎ

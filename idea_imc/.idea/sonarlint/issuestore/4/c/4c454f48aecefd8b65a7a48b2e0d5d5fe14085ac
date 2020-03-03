@@ -1,0 +1,7 @@
+
+Usquid:S1135&"2Complete the task associated to this TODO comment.(ž¥Ý´ýÿÿÿÿ8ü‰¾Ïù-
+Vsquid:UselessImportCheck	"-Remove this unused import 'sun.awt.SunHints'.(”Š¸Îþÿÿÿÿ
+Usquid:S11358"2Complete the task associated to this TODO comment.(ð‚Ï¯üÿÿÿÿ8ü‰¾Ïù-
+Qsquid:S1191	"5Use classes from the Java API instead of Sun classes.(”Š¸Îþÿÿÿÿ
+[
+squid:S106$"9Replace this use of System.out or System.err by a logger.(«Þºîøÿÿÿÿ8ü‰¾Ïù-

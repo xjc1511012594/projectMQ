@@ -1,0 +1,6 @@
+
+Š"squid:ClassVariableVisibilityCheck"WMake totalCounts a static final constant or non-public and provide accessors if needed.(åËþ÷þÿÿÿÿ
+‰"squid:ClassVariableVisibilityCheck	"VMake goodCounts a static final constant or non-public and provide accessors if needed.(í˜èúýÿÿÿÿ
+…"squid:ClassVariableVisibilityCheck
+"XMake normalCounts a static final constant or non-public and provide accessors if needed.(Ìç‰
+ƒ"squid:ClassVariableVisibilityCheck"UMake badCounts a static final constant or non-public and provide accessors if needed.(·¹·•

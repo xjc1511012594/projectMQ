@@ -1,0 +1,16 @@
+com\imooc\controller\center\CenterController.class
+com\imooc\controller\ItemsController.class
+com\imooc\controller\HelloController.class
+com\imooc\controller\center\CommentsController.class
+com\imooc\controller\StuFooController.class
+com\imooc\config\Swagger2.class
+com\imooc\config\CorsConfig.class
+com\imooc\controller\ShopCatController.class
+com\imooc\controller\OrdersController.class
+com\imooc\controller\PassportController.class
+com\imooc\Application.class
+com\imooc\controller\center\CenterUsersController.class
+com\imooc\controller\IndexController.class
+com\imooc\controller\AddressController.class
+com\imooc\controller\BaseController.class
+com\imooc\controller\center\MyOrdersController.class

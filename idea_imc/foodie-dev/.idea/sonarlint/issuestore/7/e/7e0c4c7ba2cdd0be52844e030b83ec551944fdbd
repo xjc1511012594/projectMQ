@@ -1,0 +1,6 @@
+
+€squid:S1488'"dImmediately return this expression instead of assigning it to the temporary variable "categoryList".(†ø†€úÿÿÿÿ
+ysquid:S14880"bImmediately return this expression instead of assigning it to the temporary variable "subCatList".(õø—¼
+squid:S1488;"cImmediately return this expression instead of assigning it to the temporary variable "sixNewItems".(šÇñ¿ùÿÿÿÿ
+]squid:UselessImportCheck"4Remove this unused import 'com.imooc.pojo.Carousel'.(Á‹¡øüÿÿÿÿ
+bsquid:UselessImportCheck	">Remove this unused import 'com.imooc.service.CarouselService'.(œ»¯Á
