@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c74b5bdc-4ea8-4a00-bfb2-d3d080fe52ea" name="Default Changelist" comment="" />
+    <list default="true" id="c74b5bdc-4ea8-4a00-bfb2-d3d080fe52ea" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-dev/foodie-dev-api/foodie-dev-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-dev/foodie-dev-api/foodie-dev-api.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-dev/foodie-dev-common/foodie-dev-common.iml" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-dev/foodie-dev-common/foodie-dev-common.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-dev/foodie-dev-mapper/foodie-dev-mapper.iml" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-dev/foodie-dev-mapper/foodie-dev-mapper.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-dev/foodie-dev-pojo/foodie-dev-pojo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-dev/foodie-dev-pojo/foodie-dev-pojo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foodie-dev/foodie-dev-service/foodie-dev-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-dev/foodie-dev-service/foodie-dev-service.iml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/foodie-dev/foodie-dev-pojo/target/" />
     <ignored path="$PROJECT_DIR$/foodie-dev/foodie-dev-mapper/target/" />
     <ignored path="$PROJECT_DIR$/foodie-dev/foodie-dev-service/target/" />
@@ -70,6 +77,9 @@
       <find>getSixNewItemsLazy</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -116,19 +126,19 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="37" />
-    <option name="y" value="56" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="86" />
+    <option name="y" value="111" />
     <option name="width" value="1700" />
-    <option name="height" value="1048" />
+    <option name="height" value="1040" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -145,18 +155,13 @@
               <item name="idea_imc" type="b2602c69:ProjectViewProjectNode" />
               <item name="idea_imc" type="462c0819:PsiDirectoryNode" />
               <item name="foodie-dev" type="462c0819:PsiDirectoryNode" />
-              <item name="foodie-dev-mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="idea_imc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="idea_imc" type="462c0819:PsiDirectoryNode" />
-              <item name="foodie-dev" type="462c0819:PsiDirectoryNode" />
               <item name="foodie-dev-service" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -164,6 +169,7 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -230,11 +236,12 @@
       <workItem from="1578629229093" duration="30871000" />
       <workItem from="1582169589820" duration="1260000" />
       <workItem from="1582171037598" duration="603000" />
+      <workItem from="1583205742113" duration="607000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78326000" />
+    <option name="totallyTimeSpent" value="78933000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -246,10 +253,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1696" height="1026" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15953545" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16198044" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
