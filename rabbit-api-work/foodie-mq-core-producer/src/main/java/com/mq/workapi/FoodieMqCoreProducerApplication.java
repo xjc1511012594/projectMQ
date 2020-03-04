@@ -1,13 +1,13 @@
-package com.mq.foodiemqapi;
+package com.mq.workapi;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class FoodieMqApiApplication {
+public class FoodieMqCoreProducerApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(FoodieMqApiApplication.class, args);
+        SpringApplication.run(FoodieMqCoreProducerApplication.class, args);
     }
 
 }
