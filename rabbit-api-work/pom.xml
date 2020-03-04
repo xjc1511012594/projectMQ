@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.mq</groupId>
-    <artifactId>foodie-mq</artifactId>
+    <artifactId>rabbit-api-work</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 
     <modules>
