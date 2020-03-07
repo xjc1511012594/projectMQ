@@ -12,7 +12,7 @@
     <dependencies>
         <dependency>
             <groupId>com.mq.workapi</groupId>
-            <artifactId>foodie-mq-api</artifactId>
+            <artifactId>foodie-mq-common</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
         <dependency>
