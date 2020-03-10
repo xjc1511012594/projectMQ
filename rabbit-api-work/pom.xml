@@ -83,6 +83,7 @@
             <artifactId>java-uuid-generator</artifactId>
             <version>${fasterxml.uuid.version}</version>
         </dependency>
+
     </dependencies>
 
 </project>

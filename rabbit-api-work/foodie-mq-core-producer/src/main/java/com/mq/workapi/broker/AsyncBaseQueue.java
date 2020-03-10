@@ -36,7 +36,7 @@ public class AsyncBaseQueue {
             @Override
             public void rejectedExecution(Runnable r, ThreadPoolExecutor executor) {
                 log.error("async sender is error rejected, runnable: {}, executor: {}", r, executor);
-            }
+            }//如果阻塞队列满了并且没有空闲的线程，这时如果继续提交任务，就需要采取一种策略处理该任务。
         }
         );
 
