@@ -1,5 +1,6 @@
 package com.mq.workapi.serializer.impl;
 
+import com.mq.workapi.Message;
 import com.mq.workapi.serializer.Serializer;
 import com.mq.workapi.serializer.SerializerFactory;
 
@@ -13,6 +14,6 @@ public class JacksonSerializerFactory implements SerializerFactory {
 
     @Override
     public Serializer create() {
-        return null;
+        return JacksonSerializer.createParametricType(Message.class);
     }
 }
