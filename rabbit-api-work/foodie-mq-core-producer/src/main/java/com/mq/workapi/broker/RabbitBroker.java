@@ -8,6 +8,7 @@ import com.mq.workapi.Message;
  */
 public interface RabbitBroker {
 
+    
     void rapidSend(Message message);
     void confirmSend(Message message);
     void reliantSend(Message message);
