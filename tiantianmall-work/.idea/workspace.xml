@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c74b5bdc-4ea8-4a00-bfb2-d3d080fe52ea" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev/foodie-dev-api/foodie-dev-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-dev/foodie-dev-api/foodie-dev-api.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev/foodie-dev-common/foodie-dev-common.iml" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-dev/foodie-dev-common/foodie-dev-common.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev/foodie-dev-mapper/foodie-dev-mapper.iml" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-dev/foodie-dev-mapper/foodie-dev-mapper.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev/foodie-dev-pojo/foodie-dev-pojo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-dev/foodie-dev-pojo/foodie-dev-pojo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodie-dev/foodie-dev-service/foodie-dev-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/foodie-dev/foodie-dev-service/foodie-dev-service.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../rabbit-api-work/foodie-mq-core-producer/src/main/java/com/mq/workapi/broker/RabbitTemplateContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../rabbit-api-work/foodie-mq-core-producer/src/main/java/com/mq/workapi/broker/RabbitTemplateContainer.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/foodie-dev/foodie-dev-pojo/target/" />
     <ignored path="$PROJECT_DIR$/foodie-dev/foodie-dev-mapper/target/" />
@@ -39,27 +34,7 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/foodie-dev/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2860">
-              <caret line="110" column="21" selection-start-line="110" selection-start-column="21" selection-end-line="110" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/foodie-dev/foodie-dev-service/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/foodie-dev/foodie-dev-mapper/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -126,7 +101,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="86" />
     <option name="y" value="111" />
     <option name="width" value="1700" />
@@ -138,30 +113,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="idea_imc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="idea_imc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="idea_imc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="idea_imc" type="462c0819:PsiDirectoryNode" />
-              <item name="foodie-dev" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="idea_imc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="idea_imc" type="462c0819:PsiDirectoryNode" />
-              <item name="foodie-dev" type="462c0819:PsiDirectoryNode" />
-              <item name="foodie-dev-service" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -237,11 +191,12 @@
       <workItem from="1582169589820" duration="1260000" />
       <workItem from="1582171037598" duration="603000" />
       <workItem from="1583205742113" duration="607000" />
+      <workItem from="1584414082588" duration="627000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78933000" />
+    <option name="totallyTimeSpent" value="79560000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -253,9 +208,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
+    <frame x="-8" y="-8" width="1696" height="1026" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16198044" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16381419" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -295,78 +251,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/foodie-dev/foodie-dev-api/src/main/java/com/imooc/controller/center/CenterUsersController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/foodie-dev/foodie-dev-api/src/main/java/com/imooc/controller/HelloController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/foodie-dev/foodie-dev-service/src/main/java/com/imooc/service/CarouselService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/foodie-dev/foodie-dev-mapper/src/main/java/com/imooc/mapper/CategoryMapperCustom.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/foodie-dev/foodie-dev-pojo/src/main/java/com/imooc/pojo/vo/CategoryVO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/foodie-dev/foodie-dev-service/src/main/java/com/imooc/service/CategoryService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="24" column="21" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/foodie-dev/foodie-dev-service/src/main/java/com/imooc/service/impl/CategoryServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="55" column="18" lean-forward="true" selection-start-line="55" selection-start-column="18" selection-end-line="55" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/foodie-dev/foodie-dev-pojo/src/main/java/com/imooc/pojo/vo/NewItemsVO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/foodie-dev/foodie-dev-mapper/src/main/resources/mapper/CategoryMapperCustom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="679">
-          <caret line="56" column="59" selection-start-line="56" selection-start-column="47" selection-end-line="56" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/foodie-dev/foodie-dev-api/src/main/java/com/imooc/config/Swagger2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
@@ -527,13 +411,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/foodie-dev/foodie-dev-mapper/src/main/java/com/imooc/mapper/UserAddressMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="5" column="55" lean-forward="true" selection-start-line="5" selection-start-column="55" selection-end-line="5" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/foodie-dev/foodie-dev-pojo/src/main/java/com/imooc/pojo/Users.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
@@ -651,13 +528,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/foodie-dev/foodie-dev-mapper/src/main/java/com/imooc/mapper/CarouselMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/foodie-dev/foodie-dev-api/src/main/java/com/imooc/config/CorsConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
@@ -677,6 +547,83 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/foodie-dev/foodie-dev-service/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foodie-dev/foodie-dev-mapper/src/main/java/com/imooc/mapper/CarouselMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foodie-dev/foodie-dev-mapper/src/main/java/com/imooc/mapper/ItemsCommentsMapperCustom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foodie-dev/foodie-dev-mapper/src/main/java/com/imooc/mapper/ItemsMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foodie-dev/foodie-dev-mapper/src/main/java/com/imooc/mapper/ItemsParamMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foodie-dev/foodie-dev-mapper/src/main/java/com/imooc/mapper/ItemsSpecMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foodie-dev/foodie-dev-mapper/src/main/java/com/imooc/mapper/OrderItemsMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foodie-dev/foodie-dev-mapper/src/main/java/com/imooc/mapper/OrdersMapperCustom.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foodie-dev/foodie-dev-mapper/src/main/java/com/imooc/mapper/OrderStatusMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foodie-dev/foodie-dev-mapper/src/main/java/com/imooc/mapper/StuMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foodie-dev/foodie-dev-mapper/src/main/java/com/imooc/mapper/UserAddressMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="5" column="55" lean-forward="true" selection-start-line="5" selection-start-column="55" selection-end-line="5" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foodie-dev/foodie-dev-mapper/src/main/java/com/imooc/mapper/UsersMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">

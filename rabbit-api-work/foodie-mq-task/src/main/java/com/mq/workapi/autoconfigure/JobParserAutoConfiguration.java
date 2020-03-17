@@ -35,7 +35,6 @@ public class JobParserAutoConfiguration {
     @Bean
     public ElasticJobConfParser elasticJobConfParser(JobZookeeperProperties jobZookeeperProperties,
                                                      ZookeeperRegistryCenter zookeeperRegistryCenter){
-
         return new ElasticJobConfParser(jobZookeeperProperties,zookeeperRegistryCenter);
     }
 
