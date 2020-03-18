@@ -29,10 +29,34 @@ public class ElasticJobConfParser implements ApplicationListener<ApplicationRead
     @Override
     public void onApplicationEvent(ApplicationReadyEvent event) {
         //对注解进行解析
+    try {
         ApplicationContext context = event.getApplicationContext();
         Map<String, Object> annotationMap = context.getBeansWithAnnotation(ElasticJobConfig.class);
         for(Iterator<Object> it = annotationMap.values().iterator();it.hasNext();){
             Object confBean = it.next();
+            Class<?> clazz = confBean.getClass();
+            if(clazz.getName().indexOf("$")>0){
+                String className = clazz.getName();
+                clazz = Class.forName(className.substring(0, className.indexOf("$")));
+            }
+            //获取接口类型 看是什么样的任务
+            String jobTypeName = clazz.getInterfaces()[0].getSimpleName();
+            //获取配置项
+            ElasticJobConfig conf = clazz.getAnnotation(ElasticJobConfig.class);
+            //获取注解的参数
+            String jobClass = clazz.getName();
+            String jobName = jobZookeeperProperties.getNamespace() + "." + conf.name();
+            String cron = conf.cron();
+            String shardingItemParameters = conf.shardingItemParameters();
+            String description = conf.description();
+            String jobExceptionHandler = conf.jobExceptionHandler();
+            String executorServiceHandler = conf.executorServiceHandler();
+
+        }
+        } catch (ClassNotFoundException e) {
+                e.printStackTrace();
+
+
         }
 
 
