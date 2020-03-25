@@ -123,3 +123,5 @@ z
 Jfoodie-dev/foodie-dev-mapper/src/main/java/com/imooc/mapper/StuMapper.java,0\b\0b4d479cb8296b3ac547876f76041ef45efeaec4
 |
 Lfoodie-dev/foodie-dev-mapper/src/main/java/com/imooc/mapper/UsersMapper.java,5\c\5c47bb82ab9eb403911b60f9fc3328bcc67e6594
+|
+Lfoodie-dev/foodie-dev-mapper/src/main/java/com/imooc/my/mapper/MyMapper.java,2\b\2bcdaa7181eb3f9d60307d4dfb86dde32119ca1b

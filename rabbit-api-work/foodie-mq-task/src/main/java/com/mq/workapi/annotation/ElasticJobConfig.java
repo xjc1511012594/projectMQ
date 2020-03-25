@@ -52,7 +52,8 @@ public @interface ElasticJobConfig {
 
     boolean disabled() default false; //must
 
-    String  distributeListenter() default "";
+    String distributedListener() default "";
+
 
     long startedTimeoutMilliseconds() default  Long.MAX_VALUE;
 
