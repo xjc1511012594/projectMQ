@@ -10,12 +10,13 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 @Configuration
 public class WebMvcConfig implements WebMvcConfigurer {
 
+
     // 实现静态资源的映射
     @Override
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
-        registry.addResourceHandler("/**")
+        registry.addResourceHandler(("/**"))
                 .addResourceLocations("classpath:/META-INF/resources/")  // 映射swagger2
-                .addResourceLocations("file:/workspaces/images/");  // 映射本地静态资源
+                .addResourceLocations("file:"+"D://");  // 映射本地静态资源
     }
 
     @Bean

@@ -26,7 +26,6 @@ public class CenterController {
     public IMOOCJSONResult userInfo(
             @ApiParam(name = "userId", value = "用户id", required = true)
             @RequestParam String userId) {
-
         Users user = centerUserService.queryUserInfo(userId);
         return IMOOCJSONResult.ok(user);
     }

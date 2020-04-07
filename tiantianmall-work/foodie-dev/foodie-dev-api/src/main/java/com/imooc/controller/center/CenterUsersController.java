@@ -54,12 +54,12 @@ public class CenterUsersController {
                     MultipartFile file,
             HttpServletRequest request, HttpServletResponse response) {
 
-        // .sh .php
+        // .sh  .php
 
         // 定义头像保存的地址
-//        String fileSpace = IMAGE_USER_FACE_LOCATION;
         String fileSpace = fileUpload.getImageUserFaceLocation();
-        // 在路径上为每一个用户增加一个userid，用于区分不同用户上传
+        // 在路径上为每一个用户增加一个以userid为名字的文件夹
+        // 用于区分不同用户上传
         String uploadPathPrefix = File.separator + userId;
 
         // 开始文件上传
@@ -82,17 +82,15 @@ public class CenterUsersController {
                             !suffix.equalsIgnoreCase("jpeg") ) {
                         return IMOOCJSONResult.errorMsg("图片格式不正确！");
                     }
-
                     // face-{userid}.png
                     // 文件名称重组 覆盖式上传，增量式：额外拼接当前时间
                     String newFileName = "face-" + userId + "." + suffix;
-
                     // 上传的头像最终保存的位置
                     String finalFacePath = fileSpace + uploadPathPrefix + File.separator + newFileName;
                     // 用于提供给web服务访问的地址
-                    uploadPathPrefix += ("/" + newFileName);
+                    uploadPathPrefix = uploadPathPrefix+(File.separator + newFileName);
 
-                    File outFile = new File(finalFacePath);
+                    File outFile = new File("D://"+finalFacePath);
                     if (outFile.getParentFile() != null) {
                         // 创建文件夹
                         outFile.getParentFile().mkdirs();
@@ -121,21 +119,17 @@ public class CenterUsersController {
         }
 
         // 获取图片服务地址
+        // imageServerUrl  固定前缀； uploadPathPrefix 生成的文件夹 文件名
         String imageServerUrl = fileUpload.getImageServerUrl();
-
         // 由于浏览器可能存在缓存的情况，所以在这里，我们需要加上时间戳来保证更新后的图片可以及时刷新
-        String finalUserFaceUrl = imageServerUrl + uploadPathPrefix
-                + "?t=" + DateUtil.getCurrentDateString(DateUtil.DATE_PATTERN);
-
-        // 更新用户头像到数据库
+        String finalUserFaceUrl =  imageServerUrl+uploadPathPrefix+ "?t=" + DateUtil.getCurrentDateString(DateUtil.DATE_PATTERN);
+        // 更新用户头像地址到数据库
         Users userResult = centerUserService.updateUserFace(userId, finalUserFaceUrl);
 
         userResult = setNullProperty(userResult);
         CookieUtils.setCookie(request, response, "user",
                 JsonUtils.objectToJson(userResult), true);
-
         // TODO 后续要改，增加令牌token，会整合进redis，分布式会话
-
         return IMOOCJSONResult.ok();
     }
 

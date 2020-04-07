@@ -16,40 +16,4 @@
     <result column="create_time" property="createTime" jdbcType="TIMESTAMP" />
     <result column="update_time" property="updateTime" jdbcType="TIMESTAMP" />
   </resultMap>
-
-
-
-      <select id="com.imooc.mapper.CarouselMapper.selectTotalCount" resultType="integer">
-        SELECT count(*)
-        FROM
-        intf_prn_general_headers h1
-        WHERE
-        CONCAT(
-        h1.gns_system_code,
-        h1.gns_machine_no,DATE_FORMAT(h1.creation_date,'%Y%m%d')
-        ) IN (
-        SELECT
-        CONCAT(
-        h.gns_system_code,
-        h.gns_machine_no,DATE_FORMAT(h.creation_date,'%Y%m%d')
-        )
-        FROM
-        intf_prn_general_headers h
-        WHERE
-        h.re_print_flag NOT IN ('*', '%')
-        AND h.gns_system_code <> ''
-        AND h.line_count > 0
-        AND h.trustee_unit = 'TLOG'
-        AND  h.gns_machine_no <>''
-        GROUP BY
-        h.gns_system_code,
-        h.gns_machine_no,DATE_FORMAT(h.creation_date,'%Y%m%d')
-        HAVING COUNT(1) > 1
-        )
-        AND h1.creation_date > '2020-03-24'
-        AND h1.transfer_status <>'S'
-        ORDER BY  h1.gns_system_code,
-        h1.gns_machine_no,h1.header_id;
-      </select>
-
 </mapper>
